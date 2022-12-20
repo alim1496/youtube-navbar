@@ -1,0 +1,143 @@
+body {
+    margin: 0 !important;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 56px;
+    width: 97%;
+    padding: 0 20px;
+    position: fixed;
+    top: 0;
+}
+
+#yt-icon {
+    cursor: pointer;
+}
+
+.start {
+    display: flex;
+    align-items: center;
+}
+
+.mid {
+    display: flex;
+    align-items: center;
+    width: 40%;
+}
+
+input {
+    border: 1px solid #ccc;
+    border-radius: 40px 0 0 40px;
+    height: 40px;
+    padding-left: 20px;
+    width: 500px;
+}
+
+.search-container {
+    border: 1px solid #d3d3d3;
+    border-radius: 0 40px 40px 0;
+    background-color: #F8F8F8;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 64px;
+}
+
+.search-container:hover {
+    cursor: pointer;
+    border-color: #c6c6c6;
+    background-color: #f0f0f0;
+}
+
+.fa-search {
+    -webkit-text-stroke: 1px #f2f2f2;
+}
+
+.mic-wrapper {
+    margin-left: 10px;
+    background-color: rgba(224, 224, 224, 0.3);
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mic-wrapper:hover {
+    cursor: pointer;
+    background-color: rgb(224, 224, 224);
+}
+
+.img-wrapper {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.img-wrapper:hover {
+    cursor: pointer;
+    background-color: rgb(224, 224, 224);
+}
+
+.end {
+    display: flex;
+    align-items: center;
+}
+
+#yt-icon {
+    width: 100px !important;
+}
+
+.yt-icon {
+    margin-right: 20px;
+}
+
+#img {
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+    .navbar {
+        padding: 0 5px;
+    }
+    #yt-icon {
+        width: 50px !important;
+    }
+    .menu-icon {
+        height: 12px;
+    }
+    .yt-icon {
+        margin-right: 5px;
+    }
+    .resized {
+        height: 12px;
+    }
+    .img-wrapper {
+        margin-right: 5px;
+        height: auto;
+        width: auto;
+    }
+    input {
+        height: 25px;
+        padding-left: 10px;
+    }
+    .search-container {
+        height: 27px;
+    }
+    .mic-wrapper {
+        margin-left: 0;
+    }
+    #img {
+        width: 20px;
+        height: 20px;
+    }
+}
